@@ -4,10 +4,10 @@
 
 <p align="center">
     <a href="README.md">English</a> |
-    <a>中文</a>
+    <a>简体中文</a>
 </p>
 
-<p align="center"><img src="./docs/Usage.gif"></p>
+<p align="center"><img src="./docs/Usage.gif" width="100%"></p>
 
 [![Build Status](https://travis-ci.org/guanguans/music-php.svg?branch=master)](https://travis-ci.org/guanguans/music-php)
 [![Build Status](https://scrutinizer-ci.com/g/guanguans/music-php/badges/build.png?b=master)](https://scrutinizer-ci.com/g/guanguans/music-php/build-status/master)
@@ -27,18 +27,18 @@
 
 ### phar 文件下载安装
 
-在 [releases](https://github.com/guanguans/music-php/releases) 页面中下载 [music-php](https://github.com/guanguans/music-php/releases/download/v1.1.6/music-php) 或者 [music-php.phar](https://github.com/guanguans/music-php/releases/download/v1.1.6/music-php.phar) 文件。
+在 [releases](https://github.com/guanguans/music-php/releases) 页面中下载 [music-php](https://github.com/guanguans/music-php/releases/download/v1.1.7/music-php) 或者 [music-php.phar](https://github.com/guanguans/music-php/releases/download/v1.1.7/music-php.phar) 文件。
 
 ### 全局安装
 
 ``` shell
-$ composer global require guanguans/music-php
+$ composer global require guanguans/music-php --dev
 ```
 
 ### 当前目录安装
 
 ``` shell
-$ composer create-project guanguans/music-php
+$ composer create-project guanguans/music-php --no-dev
 ```
 
 ## 使用

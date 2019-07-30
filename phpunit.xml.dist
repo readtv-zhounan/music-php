@@ -17,6 +17,15 @@
     <filter>
         <whitelist>
             <directory suffix=".php">src/</directory>
+            <exclude>
+                <directory>src/Command</directory>
+                <directory>src/Console</directory>
+                <directory>src/Contract</directory>
+                <directory>src/Exception</directory>
+                <directory>src/Support</directory>
+                <file>src/Config.php</file>
+                <file>src/Helpers.php</file>
+            </exclude>
         </whitelist>
     </filter>
     <logging>

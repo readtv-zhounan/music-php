@@ -5,13 +5,17 @@ checks:
 filter:
     excluded_paths:
         - tests/*
+        - 'bin/*'
+        - 'config/*'
+        - 'src/Helpers.php'
+        - 'src/Config.php'
+        - 'src/Exception/'
+        - 'src/Support/'
+        - 'src/Contract/'
 build:
     tests:
         override:
-            - command: ./vendor/bin/phpunit --verbose --coverage-clover=clover.xml
-              coverage:
-                  file: clover.xml
-                  format: php-clover
+            - command: ./vendor/bin/phpunit --verbose --coverage-text
     nodes:
         analysis:
             tests:
